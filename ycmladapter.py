@@ -2,7 +2,11 @@ import os
 import json
 import asyncio
 from typing import Dict, List, Any, Optional, Union
+from dotenv import load_dotenv
 from yandex_cloud_ml_sdk import AsyncYCloudML, YCloudML
+
+# Загрузка переменных из .env файла
+load_dotenv()
 
 class YandexCloudClineAdapter:
     """Adapter for using Yandex Cloud ML SDK with Cline extension for VSCode."""

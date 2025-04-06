@@ -1,0 +1,17 @@
+{
+  "cline.vsCodeLmModelSelector": {
+    "defaultProvider": "yandexcloud",
+    "providers": {
+      "yandexcloud": {
+        "endpoint": "http://localhost:3000",
+        "type": "externalCustom",
+        "models": {
+          "yandexgpt": {
+            "displayName": "YandexGPT",
+            "supportedCommands": ["chat", "generate", "configure"]
+          }
+        }
+      }
+    }
+  }
+}

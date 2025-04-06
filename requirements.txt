@@ -1,0 +1,2 @@
+yandex-cloud-ml-sdk>=0.7.0
+python-dotenv>=0.19.0

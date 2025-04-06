@@ -16,7 +16,7 @@ Here's how to use the adapter with Cline extension:
 
 ```python
 # Example of integration
-from yandex_cline_adapter import YandexCloudClineAdapter
+from ycmladapter import YandexCloudClineAdapter
 
 # Initialize with your credentials
 adapter = YandexCloudClineAdapter(
